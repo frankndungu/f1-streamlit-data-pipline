@@ -53,7 +53,7 @@ The dashboard uses two primary CSV data sources:
    - Full name
    - Team affiliation
 
-## 📱 Dashboard Components
+## Dashboard Components
 
 ### 1. Driver Stats Tab
 
