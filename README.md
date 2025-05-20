@@ -14,7 +14,7 @@ A comprehensive Formula 1 2025 Season Dashboard built with Streamlit, providing 
 - [Usage](#usage)
 - [Dashboard Screenshots](#dashboard-screenshots)
 - [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
+- [Future Enhancements](#future-improvements)
 - [Contributing](#contributing)
 
 ## Overview
@@ -83,6 +83,7 @@ The dashboard uses two primary CSV data sources:
 ## Installation
 
 Clone the repository
+
 ```
 git clone https://github.com/frankndungu/f1-streamlit-data-pipeline.git
 ```
@@ -90,16 +91,19 @@ git clone https://github.com/frankndungu/f1-streamlit-data-pipeline.git
 ```
 cd f1-streamlit-data-pipeline
 ```
+
 Create and activate virtual environment
 
 ```
 python -m venv venv
 ```
+
 ```
-source venv/bin/activate 
+source venv/bin/activate
 ```
 
 Install dependencies
+
 ```
 pip install -r requirements.txt
 ```
@@ -183,7 +187,7 @@ f1-streamlit-data-pipeline/
 - Minimal filtering
 - Basic styling
 
-## Future Enhancements
+## Future Improvements
 
 - Live data integration with Fast F1 API
 - Predictive modeling for race outcomes
@@ -201,7 +205,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
-4. Push to the branch 
+4. Push to the branch
 5. Open a Pull Request
 
 ## License
