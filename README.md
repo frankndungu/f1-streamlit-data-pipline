@@ -83,15 +83,15 @@ The dashboard uses two primary CSV data sources:
 ## Installation
 
 ```bash
-# Clone the repository
+Clone the repository
 git clone https://github.com/frankndungu/f1-streamlit-data-pipeline.git
 cd f1-streamlit-data-pipeline
 
-# Create and activate virtual environment
+Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate 
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 ```
 
