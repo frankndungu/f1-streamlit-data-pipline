@@ -2,7 +2,7 @@
 
 A comprehensive Formula 1 2025 Season Dashboard built with Streamlit, providing real-time insights into driver performance, team standings, and race results.
 
-![Driver Championship Points Progression](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/driver_championship_progression.png)
+![Driver Championship Points Progression](driver-progression.png)
 
 ## Table of Contents
 
