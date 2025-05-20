@@ -89,7 +89,7 @@ cd f1-streamlit-data-pipeline
 
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate 
 
 # Install dependencies
 pip install -r requirements.txt
@@ -115,31 +115,31 @@ Access the dashboard in your web browser at `http://localhost:8501`.
 
 ### Driver Championship Points Progression
 
-![Driver Championship Points Progression](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/driver_championship_progression.png)
+![Driver Championship Points Progression](driver-progression.png)
 
 ### Emilia Romagna GP Podium
 
-![Emilia Romagna GP Podium](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/emilia_romagna_podium.png)
+![Emilia Romagna GP Podium](emilia-romagna-gp.png)
 
 ### McLaren Head-to-Head Race Results
 
-![McLaren Head-to-Head](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/mclaren_head_to_head.png)
+![McLaren Head-to-Head](mclaren-h2h.png)
 
 ### Driver Podiums
 
-![Driver Podiums](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/driver_podiums.png)
+![Driver Podiums](most-podiums.png)
 
 ### Total Driver Points
 
-![Total Driver Points](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/total_driver_points.png)
+![Total Driver Points](most-points-drivers.png)
 
 ### Team Constructor Points
 
-![Constructor Points](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/constructor_points.png)
+![Constructor Points](most-points-team.png)
 
-### Constructor Championship Progression
+### Team Season Progression
 
-![Constructor Championship Progression](https://github.com/frankndungu/f1-streamlit-data-pipeline/raw/main/images/constructor_progression.png)
+![Constructor Championship Progression](team-progression.png)
 
 ## Project Structure
 
@@ -176,22 +176,23 @@ f1-streamlit-data-pipeline/
 
 ## Future Enhancements
 
-- Live data integration with F1 API
+- Live data integration with Fast F1 API
 - Predictive modeling for race outcomes
 - Driver performance analytics
 - Qualifying data integration
 - Historical season comparisons
 - Pit stop strategy analysis
 - Interactive track maps
+- Factor in tire degradation
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/feature(x)`)
-3. Commit your changes (`git commit -m 'Add some feature(x)'`)
-4. Push to the branch (`git push origin feature/feature(x)`)
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch 
 5. Open a Pull Request
 
 ## License
