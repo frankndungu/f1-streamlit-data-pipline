@@ -82,16 +82,25 @@ The dashboard uses two primary CSV data sources:
 
 ## Installation
 
-```bash
 Clone the repository
+```
 git clone https://github.com/frankndungu/f1-streamlit-data-pipeline.git
-cd f1-streamlit-data-pipeline
+```
 
+```
+cd f1-streamlit-data-pipeline
+```
 Create and activate virtual environment
+
+```
 python -m venv venv
+```
+```
 source venv/bin/activate 
+```
 
 Install dependencies
+```
 pip install -r requirements.txt
 ```
 
@@ -119,7 +128,7 @@ Access the dashboard in your web browser at `http://localhost:8501`.
 
 ### Emilia Romagna GP Podium
 
-![Emilia Romagna GP Podium](emilia-romagna-gp.png)
+![Emilia Romagna GP Podium](emilia-romagna-gp-podium.png)
 
 ### McLaren Head-to-Head Race Results
 
@@ -127,7 +136,7 @@ Access the dashboard in your web browser at `http://localhost:8501`.
 
 ### Driver Podiums
 
-![Driver Podiums](most-podiums.png)
+![Driver Podiums](most-podiums-2025.png)
 
 ### Total Driver Points
 
